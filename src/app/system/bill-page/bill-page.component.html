@@ -1,0 +1,18 @@
+
+    <div class="title-block">
+        <h3 class="title pull-left">
+            Сторінка рахунка <span class="sparkline bar"></span>
+        </h3>
+        <div class="pull-right">
+          <button class="btn-sm btn btn-primary-outline">
+            <i class="fa fa-refresh"></i>
+          </button>
+        </div>
+    </div>
+    <section class="section">
+        <div class="text-center" *ngIf="!isLoad1&&!isLoad2">Loading...</div>
+        <div class="row" *ngIf="isLoad1&&isLoad2">
+            <wfm-bill-card [bill]="bill" [bankData]="bankData"></wfm-bill-card>
+            <wfm-currency-card [bankData]="bankData"></wfm-currency-card>
+        </div>
+    </section>

@@ -1,0 +1,167 @@
+{
+  "users": [
+    {
+      "email": "markus@gmail.com",
+      "password": "qwerty",
+      "name": "Marko",
+      "id": 1
+    },
+    {
+      "email": "mark@gmail.com",
+      "password": "qwerty",
+      "name": "Mark",
+      "id": 2
+    }
+  ],
+  "bill": {
+    "value": 100000,
+    "currency": "UAH"
+  },
+  "categories": [
+    {
+      "name": "Будинок",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Їжа",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Автомобіль",
+      "capacity": 7000
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.06.2018 19:49:02",
+      "description": "Подарили їжу"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.06.2017 19:49:02",
+      "description": "Купив посудомийку"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.08.2019 20:00:48",
+      "id": 3,
+      "description": "Безкоштовна їжа"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "18.06.2017 14:00:58",
+      "id": 4,
+      "description": "Закупка"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "20.09.2019 18:11:08",
+      "id": 5,
+      "description": "Заправка"
+    },
+    {
+      "type": "outcome",
+      "amount": 100,
+      "category": 1,
+      "date": "22.09.2019 14:46:07",
+      "description": "123",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 1000,
+      "category": 3,
+      "date": "23.09.2019 17:27:10",
+      "description": "Паливо",
+      "id": 7
+    },
+    {
+      "type": "outcome",
+      "amount": 10000,
+      "category": 1,
+      "date": "23.09.2019 20:56:34",
+      "description": "Ремонт",
+      "id": 8
+    },
+    {
+      "type": "income",
+      "amount": 5000,
+      "category": 3,
+      "date": "23.09.2019 20:57:16",
+      "description": "Підвіз банкіра",
+      "id": 9
+    },
+    {
+      "type": "income",
+      "amount": 5000,
+      "category": 1,
+      "date": "23.09.2019 20:59:03",
+      "description": "Знайшов",
+      "id": 10
+    },
+    {
+      "type": "outcome",
+      "amount": 1000,
+      "category": 2,
+      "date": "23.09.2019 21:27:41",
+      "description": "products",
+      "id": 11
+    },
+    {
+      "type": "income",
+      "amount": 100,
+      "category": 3,
+      "date": "23.09.2019 23:42:20",
+      "description": "Довіз друг",
+      "id": 12
+    },
+    {
+      "type": "outcome",
+      "amount": 1000,
+      "category": 1,
+      "date": "24.09.2019 19:41:54",
+      "description": "qwe",
+      "id": 13
+    },
+    {
+      "type": "outcome",
+      "amount": 10,
+      "category": 1,
+      "date": "24.09.2019 19:46:40",
+      "description": "qwer",
+      "id": 14
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": 1,
+      "date": "24.09.2019 19:46:49",
+      "description": "qwertt",
+      "id": 15
+    },
+    {
+      "type": "income",
+      "amount": 1,
+      "category": 1,
+      "date": "24.09.2019 19:47:14",
+      "description": "qwery",
+      "id": 16
+    }
+  ]
+}
